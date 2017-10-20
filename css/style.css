@@ -7,14 +7,14 @@ html{
 }
 .header{
     width: 100%;
-    height: 50px;
+    height: 60px;
     border-style: solid;
     border-bottom: solid white 1px;
 }
 .header .logo{
     float: left;
     width: 40%;
-    /*margin-top: 17px;*/
+    margin-top: 1px;
     margin-left: 100px;
 }
 .header .logo ul li {
@@ -24,11 +24,20 @@ html{
     margin-right: 30px;
     cursor: pointer;
 }
+.header .logo img{
+    width: 55px;
+    height: 55px;
+}
+.header .logo .liLogoText{
+    position: fixed;
+    margin-top: 17px;
+    font-size: 25px;
+}
 .header .menu{
     float: right;
     width: 40%;
     text-align: right;
-    margin-top: 17px;
+    margin-top: 22px;
 }
 .header .menu ul li {
     display: inline-block;
@@ -69,4 +78,51 @@ html{
 .body a:hover{
     color: white;
     opacity: 1;
+}
+.bodyContent{
+    width: 90%;
+    height: 100vh;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    background-color: white;
+}
+.bodyContent h2{
+    font-size: 50px;
+    padding-top: 50px;
+}
+.bodyContent .left{
+    width: 49%;
+    float: left;
+    text-align: justify;
+}
+.bodyContent .right{
+    width: 49%;
+    float: right;
+    text-align: justify;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 87px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    display: block;
+
+}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: yellowgreen
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
 }
