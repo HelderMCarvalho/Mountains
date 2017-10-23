@@ -54,6 +54,9 @@ html{
     color: green;
     opacity: 1;
 }
+.header .menu .active{
+    color: green;
+}
 .body{
     width: 100%;
     text-align: center;
@@ -81,15 +84,21 @@ html{
 }
 .bodyContent{
     width: 90%;
-    height: 100vh;
     padding-left: 5%;
     padding-right: 5%;
     text-align: center;
     background-color: white;
+    position: absolute;
+}
+.bodyContentHeight{
+    height: 95vh;
 }
 .bodyContent h2{
     font-size: 50px;
     padding-top: 50px;
+}
+.bodyContent .textLeft{
+    text-align: left;
 }
 .bodyContent .left{
     width: 49%;
@@ -100,6 +109,18 @@ html{
     width: 49%;
     float: right;
     text-align: justify;
+}
+.bodyContent .line{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.bodyContent .line h3{
+    font-size: 25px;
+}
+.bodyContent .line a{
+    text-decoration: none;
+    color: cornflowerblue;
 }
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
