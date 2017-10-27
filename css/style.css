@@ -166,3 +166,58 @@ html{
 .dropdown:hover .dropdown-content {
     display: block;
 }
+/*
+Fazer para ecras com 1366 (Desktop), 800 (Tablet), 400 (Smartphone)
+*/
+@media (max-width: 400px) {
+    .header{
+        height: 90px;
+    }
+    .header .logo{
+        width: 68%;
+        padding-left: 32%;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .header .logo ul li {
+        margin-right: 0px;
+    }
+    .header .menu{
+        width: 100%;
+        text-align: right;
+        margin-top: 0px;
+    }
+    .body h1{
+        font-size: 70px;
+        margin-top: 100px;
+    }
+    .bodyContentHeight{
+        height: auto;
+    }
+    .bodyContent h2{
+        font-size: 50px;
+        padding-top: 0px;
+    }
+    .bodyContent .left{
+        width: 100%;
+        float: left;
+        text-align: justify;
+    }
+    .bodyContent .right{
+        width: 100%;
+        float: right;
+        text-align: justify;
+        margin-top: 0px;
+    }
+    .bodyContent .line{
+        width: 100%;
+        display: block;
+    }
+    .bodyContent .line, .left, .right{
+        margin-bottom: 50px;
+    }
+    .bodyContent .line .size25{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+}
