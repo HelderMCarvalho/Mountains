@@ -1,0 +1,96 @@
+html, body{
+    background: url(../img/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+}
+.navbar {
+    margin-bottom: 0px;
+}
+.navbar-default{
+    background-color: transparent;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+.navbar-default .navbar-brand{
+    color: black;
+}
+.navbar-default .navbar-nav>li>a{
+    color: black;
+}
+.navbar-default .navbar-nav>.active>a{
+    color: green;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav>.active>a:hover {
+    color: green;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: green;
+}
+.navbar-default .navbar-brand:hover {
+    color: green;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+     color: black;
+     background-color: transparent;
+}
+.collapsing{
+    background-color: white;
+}
+.collapse.in{
+    background-color: white;
+}
+.dropdown-menu>li>a:hover {
+    color: green;
+    background-color: yellowgreen;
+}
+.dropdown-menu>.active>a{
+    color: green;
+    background-color: yellowgreen;
+}
+.navbar-default .navbar-nav .open .dropdown-menu>.active>a, .navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover, .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover{
+    color: green;
+    background-color: yellowgreen;
+}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: black;
+}
+.index h1{
+    font-size: 80px;
+    margin-top: 150px;
+}
+.index p{
+    font-size: 17px;
+}
+.index .btn-success{
+    color: black;
+}
+.container-fluid{
+    flex: 1 1 auto;
+}
+.container-fluid {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.white{
+    background-color: white;
+}
+.title{
+    border-bottom: 1px solid grey;
+    margin-bottom: 9px;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 25px;
+}
