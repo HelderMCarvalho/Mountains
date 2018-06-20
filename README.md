@@ -1,2 +1,4 @@
-# PW15310TP1
-Trabalho prático 1 (PW1)
+# Mountains
+Trabalho com foco em CSS e Bootstrap
+Disciplina: Programação Web
+Curso: Desenvolvimento Web e Multimédia
